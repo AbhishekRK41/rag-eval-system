@@ -1,0 +1,37 @@
+MERIDIAN RETAIL PVT LTD — CODE OF CONDUCT
+Document ID: HR-POL-001A | Version 7.0 | Effective: January 1, 2025
+
+1. WORKPLACE BEHAVIOUR
+All employees are expected to maintain professional conduct. Harassment, discrimination, or
+retaliation based on gender, religion, caste, disability, or sexual orientation is strictly
+prohibited and grounds for immediate termination, independent of the standard PIP process
+described in HR-POL-005.
+
+2. PREVENTION OF SEXUAL HARASSMENT (POSH)
+2.1 Meridian Retail maintains an Internal Committee (IC) as mandated by the POSH Act, 2013.
+Complaints may be raised confidentially via posh@meridianretail.example or in person to any
+IC member.
+2.2 The IC is required to complete inquiry within 90 days of a complaint being filed.
+Interim measures (transfer, leave to complainant) may be granted during the inquiry period
+without prejudice to either party.
+
+3. CONFLICT OF INTEREST
+Employees must disclose any financial interest in vendors, suppliers, or competitors via
+the annual COI declaration. Undisclosed conflicts discovered post-hoc are treated as a
+policy violation regardless of intent.
+
+4. GIFTS & ENTERTAINMENT FROM VENDORS
+Gifts from vendors/suppliers above INR 2,000 in value must be declined or, if declining is
+impractical (e.g. festival hampers), surrendered to Admin for the company gift pool.
+Cash or cash-equivalent gifts (vouchers, gift cards) of any value must always be declined.
+
+5. SOCIAL MEDIA CONDUCT
+Employees must not disclose Confidential or Restricted information (per TECH-POL-002
+Section 3) on personal social media. Employees identifying as Meridian Retail staff on
+LinkedIn or similar platforms should include a standard disclaimer that views are personal.
+
+6. DISCIPLINARY PROCESS
+Minor violations result in a documented verbal warning, followed by a written warning for
+repeat/second violations within 12 months. Major violations (harassment, fraud, security
+breach, data theft) bypass the warning system and proceed directly to an inquiry committee,
+which may recommend suspension or termination.

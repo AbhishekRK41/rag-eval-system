@@ -1,0 +1,50 @@
+MERIDIAN RETAIL PVT LTD — EXPENSE REIMBURSEMENT POLICY
+Document ID: FIN-POL-014 | Version 2.1 | Effective: January 1, 2025
+
+1. PURPOSE
+Defines the process, limits, and approval hierarchy for reimbursement of business-related
+expenses incurred by employees.
+
+2. GENERAL CLAIM RULES
+2.1 All expense claims must be submitted through the Concur portal within 30 days of the
+expense date. Claims submitted after 30 days require Finance Head approval and will be
+processed only in the next quarterly cycle.
+
+2.2 Original invoices/bills are mandatory for claims above INR 500. For claims below INR
+500, a self-declaration is sufficient, subject to a monthly cap of INR 2,000 in
+self-declared claims per employee.
+
+3. TRAVEL EXPENSES
+3.1 Domestic air travel: Economy class only, for employees below Band 5. Band 5 and above
+may book Premium Economy for flights exceeding 3 hours.
+3.2 Local conveyance (cab/auto) for official work: reimbursed at actuals up to INR 800 per
+day within city limits. Cab bookings must use the corporate Ola/Uber business account where
+available.
+3.3 Mileage for personal vehicle use on official duty: INR 8/km for two-wheelers, INR 12/km
+for four-wheelers, capped at INR 1,500 per day.
+
+4. LODGING
+4.1 Domestic lodging is capped per city tier:
+    Tier 1 cities (Mumbai, Delhi, Bengaluru, Chennai, Kolkata, Hyderabad, Pune): INR 6,000/night
+    Tier 2 cities: INR 4,000/night
+    Tier 3 cities: INR 2,500/night
+4.2 Lodging bookings must be made at least 3 working days in advance through the approved
+travel desk unless the trip itself was approved with less than 3 days' notice.
+
+5. MEALS & PER DIEM
+5.1 Per diem for domestic travel: INR 1,200/day (covers all meals), disbursed in advance
+upon trip approval and not requiring separate bill submission.
+5.2 Client entertainment meals are reimbursed separately at actuals with prior manager
+approval, subject to a cap of INR 3,000 per event for up to 4 attendees.
+
+6. APPROVAL HIERARCHY
+Claims up to INR 10,000: Reporting Manager approval only.
+Claims INR 10,001 to INR 50,000: Reporting Manager + Department Head.
+Claims above INR 50,000: Reporting Manager + Department Head + Finance Controller.
+Note: this hierarchy applies to the cumulative monthly claim total per employee, not
+per individual line item.
+
+7. NON-REIMBURSABLE ITEMS
+Alcohol (except pre-approved client entertainment), traffic fines, personal grooming,
+in-flight upgrades, and mini-bar charges at hotels are not reimbursable under any
+circumstances.

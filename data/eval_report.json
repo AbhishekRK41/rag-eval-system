@@ -1,0 +1,85 @@
+{
+  "k": 5,
+  "n_docs": 10,
+  "n_golden_queries": 35,
+  "chunking": {
+    "fixed": {
+      "n_chunks": 37,
+      "retrieval": {
+        "sparse_bm25": {
+          "hit_rate@k": 1.0,
+          "mrr@k": 0.9429,
+          "ndcg@k": 0.9477,
+          "n_queries": 35,
+          "k": 5
+        },
+        "dense_tfidf_svd": {
+          "hit_rate@k": 1.0,
+          "mrr@k": 0.9381,
+          "ndcg@k": 0.9448,
+          "n_queries": 35,
+          "k": 5
+        },
+        "hybrid_rrf": {
+          "hit_rate@k": 1.0,
+          "mrr@k": 0.9381,
+          "ndcg@k": 0.9432,
+          "n_queries": 35,
+          "k": 5
+        },
+        "hybrid_rrf_reranked": {
+          "hit_rate@k": 0.9429,
+          "mrr@k": 0.8438,
+          "ndcg@k": 0.8646,
+          "n_queries": 35,
+          "k": 5
+        }
+      },
+      "build_time_sec": 0.16
+    },
+    "semantic": {
+      "n_chunks": 61,
+      "retrieval": {
+        "sparse_bm25": {
+          "hit_rate@k": 0.9429,
+          "mrr@k": 0.9143,
+          "ndcg@k": 0.9218,
+          "n_queries": 35,
+          "k": 5
+        },
+        "dense_tfidf_svd": {
+          "hit_rate@k": 0.9429,
+          "mrr@k": 0.8857,
+          "ndcg@k": 0.8964,
+          "n_queries": 35,
+          "k": 5
+        },
+        "hybrid_rrf": {
+          "hit_rate@k": 0.9429,
+          "mrr@k": 0.9143,
+          "ndcg@k": 0.9195,
+          "n_queries": 35,
+          "k": 5
+        },
+        "hybrid_rrf_reranked": {
+          "hit_rate@k": 0.9143,
+          "mrr@k": 0.8,
+          "ndcg@k": 0.8292,
+          "n_queries": 35,
+          "k": 5
+        }
+      },
+      "build_time_sec": 0.18
+    }
+  },
+  "generation_sample": {
+    "question": "How many days of earned leave do I accrue per month?",
+    "mode": "extractive_fallback",
+    "answer": "[Extractive fallback -- no ANTHROPIC_API_KEY set] Most relevant passage (doc_id=01_leave_policy):\n\nMERIDIAN RETAIL PVT LTD \u2014 LEAVE POLICY\nDocument ID: HR-POL-001 | Version 4.2 | Effective: April 1, 2025\n2. LEAVE CATEGORIES\n2.1 Earned Leave (EL): Employees accrue 1.5 days of Earned Leave per completed month of\nservice, totalling 18 days per calendar year. EL can be carried forward up to a maximum of\n45 days. Unused EL beyond 45 days lapses at the end of the calendar year unless the employee\nhas applied for encashment before December 15.\n\n2.2 Casual Leave (CL): 12 days per calendar year, credited in full at the start of the year.\nCL cannot be carried forward and does not lapse into encashment. Maximum 3 consecutive CL\ndays can be taken without manager approval; beyond that, HR approval is mandatory.\n\n2.3 Sick Leave (SL): 10 days per calendar year. Any SL exceeding 2 consecutive days requires\na medical certificate submitted within 3 working days of return.\n\n2.4 Maternity Leave: 26 weeks as per the Maternity Benefit Act, applicable to female\nemployees with less than two surviving children. Employees with two or more children are\nentitled to 12 weeks.\n\n2.5 Paternity Leave: 15 calendar days, to be availed within 6 months of the child's birth.",
+    "faithfulness": {
+      "method": "heuristic",
+      "score": 1.0,
+      "ungrounded_numbers": []
+    }
+  }
+}

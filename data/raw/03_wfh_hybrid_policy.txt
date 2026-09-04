@@ -1,0 +1,36 @@
+MERIDIAN RETAIL PVT LTD — REMOTE & HYBRID WORK POLICY
+Document ID: HR-POL-009 | Version 3.0 | Effective: June 1, 2025
+
+1. ELIGIBILITY
+This policy applies only to Corporate function employees (Finance, HR, Tech, Marketing,
+Category Management). Retail store and warehouse operations staff are not eligible for
+remote work arrangements due to the nature of their roles.
+
+2. HYBRID SCHEDULE
+Corporate employees follow a 3+2 hybrid model: minimum 3 days in-office per week (Tuesday,
+Wednesday, Thursday are mandatory anchor days), with Monday and Friday flexible for remote
+work. Team leads may mandate additional in-office days during peak business periods
+(festive season: September 15 - November 15, and end-of-quarter close weeks).
+
+3. FULLY REMOTE EXCEPTIONS
+Fully remote arrangements (5 days remote) may be approved by the Department Head + HR
+Business Partner jointly, only for: (a) employees relocating for a spouse's job transfer,
+(b) medical necessity supported by documentation, or (c) specialized tech roles explicitly
+designated as remote-first by the CTO. Fully remote approvals are reviewed every 6 months.
+
+4. WORK FROM HOME (OCCASIONAL)
+Employees on the standard hybrid schedule may take up to 4 ad-hoc WFH days per month beyond
+their flexible Monday/Friday, subject to manager approval via the HRMS portal, logged at
+least 1 day in advance except in documented emergencies.
+
+5. EQUIPMENT & REIMBURSEMENT
+Employees working remotely are provided a one-time home-office setup allowance of INR
+15,000 (laptop stand, chair, etc.), claimable once every 3 years. Internet reimbursement of
+INR 1,000/month is available for employees on the Fully Remote arrangement only; standard
+hybrid employees are not eligible for internet reimbursement.
+
+6. PERFORMANCE & AVAILABILITY
+All remote/hybrid employees must be available on core collaboration hours 10 AM - 4 PM IST
+regardless of location, and must maintain calendar visibility. Manager discretion applies
+for adjusting core hours for employees in different time zones (rare, requires CTO/CHRO
+sign-off for cross-border remote work).

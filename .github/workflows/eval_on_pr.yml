@@ -1,0 +1,52 @@
+name: Eval & Test Suite
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    paths:
+      - "src/retrieval/**"
+      - "src/ingestion/**"
+      - "src/eval/**"
+      - "data/golden_qa.json"
+      - "data/raw/**"
+
+jobs:
+  eval-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run unit tests
+        run: PYTHONPATH=. pytest tests/ -v
+
+      - name: Run retrieval eval suite
+        run: PYTHONPATH=. python -m src.eval.run_eval --k 5 --out data/eval_report.json
+
+      - name: Post eval results as PR comment
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = JSON.parse(fs.readFileSync('data/eval_report.json', 'utf8'));
+            let table = `**Retrieval Eval Results** (k=${report.k}, ${report.n_golden_queries} golden queries)\n\n`;
+            table += "| Chunking | Strategy | Hit Rate@k | MRR@k | NDCG@k |\n|---|---|---|---|---|\n";
+            for (const [chunkStrat, data] of Object.entries(report.chunking)) {
+              for (const [name, m] of Object.entries(data.retrieval)) {
+                table += `| ${chunkStrat} | ${name} | ${m['hit_rate@k']} | ${m['mrr@k']} | ${m['ndcg@k']} |\n`;
+              }
+            }
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: table
+            });

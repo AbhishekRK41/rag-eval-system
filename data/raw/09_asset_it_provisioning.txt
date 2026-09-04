@@ -1,0 +1,30 @@
+MERIDIAN RETAIL PVT LTD — IT ASSET PROVISIONING POLICY
+Document ID: TECH-POL-007 | Version 1.8 | Effective: May 1, 2025
+
+1. NEW HIRE PROVISIONING
+Standard laptop provisioning (Band 1-5): Windows laptop, 16GB RAM, i5/Ryzen 5 equivalent,
+provisioned 3 working days before joining date, subject to the hiring manager raising the
+IT Request Portal ticket at least 7 working days in advance.
+Band 6+ and Tech function employees: MacBook Pro or high-spec Windows workstation option,
+32GB RAM minimum, provisioned via the same 7-day lead-time process.
+
+2. ASSET REFRESH CYCLE
+Laptops are refreshed every 3 years for standard roles, every 2 years for Tech/Engineering
+roles given higher compute demands. Refresh requests before the cycle completes require
+Department Head approval citing a specific business/performance justification.
+
+3. MOBILE DEVICES
+Company SIM cards with a monthly data/call allowance of INR 999 are issued to Band 4 and
+above, and to any employee whose role requires field visits (Sales, Category Management,
+Store Audit) regardless of band. Handsets are not provided by default; a handset allowance
+of INR 20,000 (one-time, every 3 years) is available only to Band 6 and above.
+
+4. LOANER EQUIPMENT
+Loaner laptops are available for short business trips or when a primary device is under
+repair, requestable via the IT Request Portal with 2 working days' notice. Loaner equipment
+must be returned within 5 working days of the primary device becoming available again.
+
+5. ASSET DE-PROVISIONING
+On separation, per the Exit Policy (HR-POL-011 Section 4), all assets are collected by
+IT/Admin and wiped per the data sanitization standard (NIST 800-88) before being
+re-issued to another employee or retired.

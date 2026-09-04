@@ -1,0 +1,38 @@
+MERIDIAN RETAIL PVT LTD — IT SECURITY & ACCEPTABLE USE POLICY
+Document ID: TECH-POL-002 | Version 6.0 | Effective: March 1, 2025
+
+1. PASSWORD & AUTHENTICATION
+1.1 All corporate accounts require multi-factor authentication (MFA). Passwords must be a
+minimum of 12 characters, rotated every 90 days, and cannot reuse the last 5 passwords.
+1.2 Privileged accounts (admin, database, production access) require rotation every 45 days
+and mandatory hardware security key (YubiKey) MFA, not app-based OTP.
+
+2. DEVICE MANAGEMENT
+2.1 Only IT-issued laptops may access production systems and the internal HRMS/Finance
+tools. BYOD (personal devices) may access email and calendar only, via the managed mobile
+app, never through browser-based webmail.
+2.2 Lost or stolen devices must be reported to IT Security within 2 hours of discovery.
+Failure to report within 24 hours may result in disciplinary action under the Code of
+Conduct.
+
+3. DATA CLASSIFICATION
+Data is classified as Public, Internal, Confidential, or Restricted. Customer PII and
+payment data are always Restricted. Restricted data cannot be stored on local drives, USB
+devices, or personal cloud storage (Google Drive, Dropbox) under any circumstances — only
+on approved encrypted company systems.
+
+4. VPN & REMOTE ACCESS
+Remote access to internal systems requires the company VPN client at all times, including
+for employees on the Hybrid/Remote policy (HR-POL-009). VPN sessions auto-terminate after
+8 hours of inactivity and require re-authentication.
+
+5. INCIDENT REPORTING
+Suspected phishing, malware, or unauthorized access attempts must be reported to
+security@meridianretail.example within 1 hour of discovery via the "Report Phishing" button
+in Outlook, or directly if the button is unavailable. Do not forward suspicious emails to
+colleagues.
+
+6. THIRD-PARTY SOFTWARE
+Installation of any non-approved software, browser extensions, or SaaS tools requires
+submission through the IT Request Portal and Security review before installation,
+regardless of whether the tool is free or paid.
