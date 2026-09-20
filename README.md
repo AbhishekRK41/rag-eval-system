@@ -13,10 +13,10 @@ actually discriminate between similar-sounding clauses in different documents.
 
 ## Why this exists
 
-Most RAG portfolio projects stop at "it answers questions." The hard, interview-
-relevant problem in RAG is **knowing whether it's working** — chunking strategy,
-retrieval method, and reranking all have measurable, sometimes counter-intuitive
-effects on answer quality. This repo makes that measurable and repeatable.
+Many RAG demos stop at "it answers questions." The harder problem in RAG is
+**knowing whether it's working** — chunking strategy, retrieval method, and
+reranking all have measurable, sometimes counter-intuitive effects on answer
+quality. This repo makes that measurable and repeatable.
 
 ## Results (real numbers, not illustrative)
 
@@ -35,7 +35,7 @@ the specific fact needed to answer (see `src/eval/retrieval_metrics.py`).
 | semantic | Hybrid (RRF fusion) | 61 | 0.943 | 0.914 | 0.919 |
 | semantic | Hybrid + lexical reranker | 61 | 0.914 | 0.800 | 0.829 |
 
-**Two findings worth knowing before an interview asks about them:**
+**Two findings worth noting:**
 
 1. **BM25 alone wins on this corpus.** Policy documents are lexically precise —
    the question "what is the maximum earned leave carry-forward" and the answer
@@ -52,9 +52,9 @@ the specific fact needed to answer (see `src/eval/retrieval_metrics.py`).
    what RRF fusion already captured — it just adds noise. A real cross-encoder
    (semantic relevance, not lexical overlap) would likely behave differently;
    see the `CrossEncoderReranker` swap point in `src/retrieval/reranker.py`.
-   I'm reporting this rather than hiding it because a portfolio project that
-   only shows improving numbers is less credible than one that shows where an
-   intervention didn't help and why.
+   I'm reporting this rather than hiding it because a benchmark that only shows
+   improving numbers is less credible than one that shows where an intervention
+   didn't help and why.
 
 Fixed-size chunking scores *higher* than semantic chunking on Hit Rate here —
 worth digging into if extending this: likely because fixed windows with overlap
